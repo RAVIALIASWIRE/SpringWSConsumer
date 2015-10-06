@@ -8,9 +8,9 @@
 	</head>
 	<body ng-app="mywsApp">
 		<div ng-controller="Consume">
-		<input id="no1" type="text" ng-model="first" value=""/>
-		<input id="no2" type="text" ng-model="second" value=""/>
-		<input id="send" type="submit" ng-click="send()" value="Test"/>
+		<input id="a" type="text" ng-model="first" value=""/>
+		<input id="b" type="text" ng-model="second" value=""/>
+		<input id="c" type="submit" ng-click="send()" value="Test"/>
 			<p>{{result.name}} : {{result.result}}</p>
 		</div>
 	</body>
