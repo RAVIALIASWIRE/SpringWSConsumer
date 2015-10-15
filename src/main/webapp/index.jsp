@@ -7,7 +7,7 @@
     	<%response.addHeader("Access-Control-Allow-Origin", "*"); %>
 	</head>
 	<body ng-app="mywsApp">
-	<p> hi ravi </p>
+	<p> hi ravi velpula </p>
 		<div ng-controller="Consume">
 		<input id="a" type="text" ng-model="first" value=""/>
 		<input id="b" type="text" ng-model="second" value=""/>
