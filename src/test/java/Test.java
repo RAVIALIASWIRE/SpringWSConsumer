@@ -10,13 +10,8 @@ public class Test {
 
 	public static void main(String[] args) {
 	WebDriver driver = new FirefoxDriver();
-	driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
-	driver.get("http://localhost:8086/SpringWSConsumer/");
-	driver.findElement(By.id("a")).sendKeys("34");
-	driver.findElement(By.id("b")).sendKeys("4");
-	driver.findElement(By.id("c")).click();
-	
-		
+	driver.get("https://www.google.co.in/?gfe_rd=cr&ei=3aCoVfzaNI-BoAPPwYDIAw&gws_rd=ssl");
+			
 	}
 
 }
